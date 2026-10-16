@@ -1,0 +1,263 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="S0WyqgY3CLEJsU1SXnSQ">
+    <mxGraphModel dx="1857" dy="1829" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OwochB-n9VrVej9iQ1W2-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="" vertex="1">
+          <mxGeometry height="360" width="320" x="-400" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
+          <mxGeometry height="220" width="240" x="650" y="-170" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="" vertex="1">
+          <mxGeometry height="220" width="240" x="640" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="" vertex="1">
+          <mxGeometry height="220" width="240" x="230" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="" vertex="1">
+          <mxGeometry height="220" width="240" x="-140" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Frontend" vertex="1">
+          <mxGeometry height="60" width="120" x="-80" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Backend Python" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Base de donnée Postgresql" vertex="1">
+          <mxGeometry height="70" width="120" x="700" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="Clé APi LLM (Open Routeur)" vertex="1">
+          <mxGeometry height="80" width="200" x="-470" y="-410" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Static Web Apps" vertex="1">
+          <mxGeometry height="40" width="120" x="-80" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="App Services" vertex="1">
+          <mxGeometry height="40" width="120" x="290" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Azure Database for PostgreSQL" vertex="1">
+          <mxGeometry height="40" width="190" x="665" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Azure Blob Storage" vertex="1">
+          <mxGeometry height="40" width="110" x="715" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="8tcfOxN6gIG4w2w46Nkb-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stockage PDF" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Fonctionnement" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stockage" vertex="1">
+          <mxGeometry height="40" width="120" x="680" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Backend" vertex="1">
+          <mxGeometry height="40" width="120" x="480" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Frontend" vertex="1">
+          <mxGeometry height="40" width="120" x="80" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="PDF Local" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Docker/PostgreSQL&lt;div&gt;Port 5432&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-23" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OwochB-n9VrVej9iQ1W2-18" value="5173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Static Web Apps" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-20" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OwochB-n9VrVej9iQ1W2-15" value="5400/5432">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-25" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OwochB-n9VrVej9iQ1W2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-26" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="OwochB-n9VrVej9iQ1W2-18" value="API 8000">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Uvicorn" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Navigateur" vertex="1">
+          <mxGeometry height="40" width="120" x="280" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="LLM OpenRouteur api" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-74" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OwochB-n9VrVej9iQ1W2-32" value="lis">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-390" y="-690" />
+              <mxPoint x="-390" y="-480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="GET /api/meeting (calendrier)" vertex="1">
+          <mxGeometry height="40" width="170" x="-360" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-54" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OwochB-n9VrVej9iQ1W2-42">
+          <mxGeometry relative="1" x="-0.4737" as="geometry">
+            <Array as="points">
+              <mxPoint x="-170" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-55" connectable="0" parent="OwochB-n9VrVej9iQ1W2-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fa6800;labelBorderColor=#C73500;fontColor=#000000;" value="Select" vertex="1">
+          <mxGeometry relative="1" x="-0.2105" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="GET /api/documents (historique)" vertex="1">
+          <mxGeometry height="40" width="200" x="-360" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-40" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OwochB-n9VrVej9iQ1W2-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-380" y="-590" />
+              <mxPoint x="-380" y="-480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-67" connectable="0" parent="OwochB-n9VrVej9iQ1W2-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fa6800;fontColor=#000000;labelBorderColor=#C73500;" value="lis" vertex="1">
+          <mxGeometry relative="1" x="-0.2507" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-51" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="8tcfOxN6gIG4w2w46Nkb-8">
+          <mxGeometry relative="1" x="-0.0571" as="geometry">
+            <Array as="points">
+              <mxPoint x="-490" y="-570" />
+              <mxPoint x="-490" y="-370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-52" connectable="0" parent="OwochB-n9VrVej9iQ1W2-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Post /chat/completions" vertex="1">
+          <mxGeometry relative="1" x="-0.1143" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-57" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="OwochB-n9VrVej9iQ1W2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-58" connectable="0" parent="OwochB-n9VrVej9iQ1W2-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Insert" vertex="1">
+          <mxGeometry relative="1" x="-0.1554" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-61" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OwochB-n9VrVej9iQ1W2-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="-590" />
+              <mxPoint x="-110" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-62" connectable="0" parent="OwochB-n9VrVej9iQ1W2-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#fa6800;fontColor=#000000;labelBorderColor=#C73500;" value="PUT pdf" vertex="1">
+          <mxGeometry relative="1" x="0.1407" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="POST /api/documents/generate (LLM&amp;gt;PDF&amp;gt;BLOB&amp;gt;BDD)" vertex="1">
+          <mxGeometry height="40" width="200" x="-360" y="-610" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-63" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OwochB-n9VrVej9iQ1W2-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-170" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-64" connectable="0" parent="OwochB-n9VrVej9iQ1W2-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GET pdf" vertex="1">
+          <mxGeometry relative="1" x="-0.23" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-65" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="OwochB-n9VrVej9iQ1W2-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-66" connectable="0" parent="OwochB-n9VrVej9iQ1W2-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SELECT id" vertex="1">
+          <mxGeometry relative="1" x="-0.4005" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="GET /api/documents/{id}/generate&lt;div&gt;BDD&amp;gt;BLOB&amp;gt;PDF&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="-360" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="meeting.json + prompt.md&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="160" x="-360" y="-500" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" value="Static Web App" vertex="1">
+          <mxGeometry height="80" width="160" x="-600" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-36" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="OwochB-n9VrVej9iQ1W2-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="App Service Windows" vertex="1">
+          <mxGeometry height="80" width="240" x="-360" y="-810" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Stockage BDD" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="-650" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Azure database for PostgreSQL" vertex="1">
+          <mxGeometry height="80" width="200" y="-720" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-49" edge="1" parent="1" source="OwochB-n9VrVej9iQ1W2-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OwochB-n9VrVej9iQ1W2-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-50" connectable="0" parent="OwochB-n9VrVej9iQ1W2-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="/GET" vertex="1">
+          <mxGeometry relative="1" x="-0.3086" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Ouverture de la page&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="-827" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Bouton généré" vertex="1">
+          <mxGeometry height="60" width="120" x="-780" y="-640" as="geometry" />
+        </mxCell>
+        <mxCell id="OwochB-n9VrVej9iQ1W2-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Azure Blob Storage" vertex="1">
+          <mxGeometry height="80" width="160" x="-80" y="-440" as="geometry" />
+        </mxCell>
+      
+<mxCell id="fix-1" value="Schéma corrigé (cloud Azure)" style="text;html=1;fontSize=20;fontStyle=1;align=left;" vertex="1" parent="1"><mxGeometry x="-830" y="1140" width="600" height="40" as="geometry"/></mxCell>
+<mxCell id="fix-2" value="Azure · France Central" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillColor=none;verticalAlign=top;align=left;spacingLeft=10;spacingTop=4;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="-850" y="1190" width="1110" height="450" as="geometry"/></mxCell>
+<mxCell id="fix-3" value="Azure Static Web Apps · front React" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#ffcd28;fontColor=#000000;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="-830" y="1225" width="300" height="320" as="geometry"/></mxCell>
+<mxCell id="fix-4" value="Ouverture de la page" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;" vertex="1" parent="1"><mxGeometry x="-810" y="1265" width="260" height="40" as="geometry"/></mxCell>
+<mxCell id="fix-5" value="Boutons « Réunion de… » (local, aucun appel)" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;fillColor=#ffffff;fontStyle=2;" vertex="1" parent="1"><mxGeometry x="-810" y="1315" width="260" height="40" as="geometry"/></mxCell>
+<mxCell id="fix-6" value="Bouton « Générer la convocation »" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="-810" y="1365" width="260" height="45" as="geometry"/></mxCell>
+<mxCell id="fix-7" value="Bouton « Télécharger le PDF »&lt;br&gt;&lt;span style='font-weight:normal'&gt;(aperçu + historique)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="-810" y="1420" width="260" height="50" as="geometry"/></mxCell>
+<mxCell id="fix-8" value="api.ts → fetch(VITE_API_URL + route) · HTTPS 443" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontSize=11;" vertex="1" parent="1"><mxGeometry x="-810" y="1485" width="260" height="40" as="geometry"/></mxCell>
+<mxCell id="fix-9" value="Azure App Service (Linux) · Uvicorn + FastAPI" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;verticalAlign=top;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="-460" y="1225" width="370" height="395" as="geometry"/></mxCell>
+<mxCell id="fix-10" value="GET /api/meetings (calendrier)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1"><mxGeometry x="-440" y="1265" width="330" height="40" as="geometry"/></mxCell>
+<mxCell id="fix-11" value="GET /api/documents (historique)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1"><mxGeometry x="-440" y="1315" width="330" height="40" as="geometry"/></mxCell>
+<mxCell id="fix-12" value="POST /api/documents/generate&lt;br&gt;(LLM &amp;gt; PDF &amp;gt; Blob &amp;gt; BDD)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1"><mxGeometry x="-440" y="1365" width="330" height="50" as="geometry"/></mxCell>
+<mxCell id="fix-13" value="GET /api/documents/{id}/download&lt;br&gt;(BDD &amp;gt; Blob &amp;gt; PDF)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1"><mxGeometry x="-440" y="1425" width="330" height="50" as="geometry"/></mxCell>
+<mxCell id="fix-14" value="GET /health/live · /health/ready (sonde Azure)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="-440" y="1485" width="330" height="40" as="geometry"/></mxCell>
+<mxCell id="fix-15" value="meetings.json + prompt.md (fichiers du code)" style="shape=note;size=12;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="-440" y="1540" width="330" height="45" as="geometry"/></mxCell>
+<mxCell id="fix-16" value="&lt;b&gt;Azure Database for PostgreSQL&lt;/b&gt;&lt;br&gt;table document · 5432 TLS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1"><mxGeometry x="20" y="1230" width="220" height="80" as="geometry"/></mxCell>
+<mxCell id="fix-17" value="&lt;b&gt;Azure Blob Storage&lt;/b&gt;&lt;br&gt;documents/&amp;lt;id&amp;gt;.pdf · HTTPS 443" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1"><mxGeometry x="20" y="1370" width="220" height="80" as="geometry"/></mxCell>
+<mxCell id="fix-18" value="&lt;b&gt;Application Insights&lt;/b&gt;&lt;br&gt;logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="20" y="1510" width="220" height="60" as="geometry"/></mxCell>
+<mxCell id="fix-19" value="&lt;b&gt;OpenRouter&lt;/b&gt; (hors Azure)&lt;br&gt;API LLM · HTTPS 443" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="320" y="1370" width="200" height="80" as="geometry"/></mxCell>
+<mxCell id="fix-20" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-4" target="fix-10"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-21" value="auto" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-4" target="fix-11"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-22" value="clic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-6" target="fix-12"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-23" value="clic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-7" target="fix-13"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-24" value="lit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-10" target="fix-15"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-25" value="lit" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=0.1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-12" target="fix-15"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-26" value="SELECT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-11" target="fix-16"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-27" value="INSERT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-12" target="fix-16"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-28" value="PUT pdf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-12" target="fix-17"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-29" value="POST /chat/completions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.8;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-12" target="fix-19"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-30" value="SELECT id" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0.3;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-13" target="fix-16"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-31" value="GET pdf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-13" target="fix-17"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-32" value="SELECT 1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.15;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-14" target="fix-16"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-33" value="logs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.92;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fix-9" target="fix-18"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="fix-34" value="Corrections par rapport au schéma du dessus : App Service &lt;b&gt;Linux&lt;/b&gt; (Python ne tourne pas sur App Service Windows) · route &lt;b&gt;/api/meetings&lt;/b&gt; (au pluriel) · téléchargement = &lt;b&gt;/api/documents/{id}/download&lt;/b&gt; (pas /generate) · &lt;b&gt;OpenRouter&lt;/b&gt; est un service externe (la clé est un paramètre d'application de l'App Service) · « Générer » relié à POST, bouton « Télécharger » ajouté · health check relié à la BDD." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;fontSize=11;" vertex="1" parent="1"><mxGeometry x="-830" y="1655" width="1100" height="60" as="geometry"/></mxCell>
+</root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

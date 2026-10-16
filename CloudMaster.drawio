@@ -1,0 +1,129 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="S0WyqgY3CLEJsU1SXnSQ">
+    <mxGraphModel dx="2995" dy="-467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fix-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#ffcd28;fontColor=#000000;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;" value="Azure Static Web Apps · front React" vertex="1">
+          <mxGeometry height="320" width="300" x="-900" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;" value="Ouverture de la page" vertex="1">
+          <mxGeometry height="40" width="260" x="-880" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;fillColor=#ffffff;fontStyle=2;" value="Boutons « Réunion de… » (local, aucun appel)" vertex="1">
+          <mxGeometry height="40" width="260" x="-880" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontStyle=1;" value="Bouton « Générer la convocation »" vertex="1">
+          <mxGeometry height="45" width="260" x="-880" y="1370" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontStyle=1;" value="Bouton « Télécharger le PDF »&lt;br&gt;&lt;span style=&#39;font-weight:normal&#39;&gt;(aperçu + historique)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="260" x="-880" y="1425" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontSize=11;" value="api.ts → fetch(VITE_API_URL + route) · HTTPS 443" vertex="1">
+          <mxGeometry height="40" width="260" x="-880" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;verticalAlign=top;fontStyle=1;" value="Azure App Service (Linux) · Uvicorn + FastAPI" vertex="1">
+          <mxGeometry height="395" width="370" x="-510" y="1225" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="GET /api/meetings (calendrier)" vertex="1">
+          <mxGeometry height="40" width="330" x="-490" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="GET /api/documents (historique)" vertex="1">
+          <mxGeometry height="40" width="330" x="-490" y="1315" as="geometry" />
+        </mxCell>
+        <mxCell id="IiIOF5n48Drn7TAfkD9S-1" edge="1" parent="1" source="fix-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fix-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IiIOF5n48Drn7TAfkD9S-2" connectable="0" parent="IiIOF5n48Drn7TAfkD9S-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Appel API" vertex="1">
+          <mxGeometry relative="1" x="0.0487" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fix-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="POST /api/documents/generate&lt;br&gt;(LLM &amp;gt; PDF &amp;gt; Blob &amp;gt; BDD)" vertex="1">
+          <mxGeometry height="50" width="330" x="-490" y="1365" as="geometry" />
+        </mxCell>
+        <mxCell id="IiIOF5n48Drn7TAfkD9S-3" edge="1" parent="1" source="fix-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="fix-16">
+          <mxGeometry relative="1" x="-0.0476" as="geometry">
+            <mxPoint x="10" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IiIOF5n48Drn7TAfkD9S-4" connectable="0" parent="IiIOF5n48Drn7TAfkD9S-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SELECT id" vertex="1">
+          <mxGeometry relative="1" x="-0.1709" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fix-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="GET /api/documents/{id}/download&lt;br&gt;(BDD &amp;gt; Blob &amp;gt; PDF)" vertex="1">
+          <mxGeometry height="50" width="330" x="-490" y="1425" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="GET /health/live · /health/ready&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="330" x="-490" y="1485" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-15" parent="1" style="shape=note;size=17;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="meetings.json + prompt.md (fichiers du code)" vertex="1">
+          <mxGeometry height="45" width="330" x="-490" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;b&gt;Azure Database for PostgreSQL&lt;/b&gt;&lt;br&gt;table document · 5432 TLS" vertex="1">
+          <mxGeometry height="80" width="220" x="-40" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;b&gt;Azure Blob Storage&lt;/b&gt;&lt;br&gt;documents/&amp;lt;id&amp;gt;.pdf · HTTPS 443" vertex="1">
+          <mxGeometry height="80" width="220" x="-10" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;OpenRouter&lt;/b&gt; (hors Azure)&lt;br&gt;API LLM · HTTPS 443" vertex="1">
+          <mxGeometry height="80" width="200" x="90" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-20" edge="1" parent="1" source="fix-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fix-10" value="auto">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-21" edge="1" parent="1" source="fix-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fix-11" value="auto">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-22" edge="1" parent="1" source="fix-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fix-12" value="clic">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-23" edge="1" parent="1" source="fix-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fix-13" value="clic">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-24" edge="1" parent="1" source="fix-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fix-15" value="lit">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-500" y="1297" />
+              <mxPoint x="-500" y="1562.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fix-25" edge="1" parent="1" source="fix-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.1;exitY=1;exitDx=0;exitDy=0;entryX=0.1;entryY=0;entryDx=0;entryDy=0;" target="fix-15" value="lit">
+          <mxGeometry relative="1" x="0.04" y="-23" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-510" y="1415.13" />
+              <mxPoint x="-510" y="1540.38" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fix-26" edge="1" parent="1" source="fix-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;" target="fix-16" value="SELECT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-27" edge="1" parent="1" source="fix-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;" target="fix-16" value="INSERT">
+          <mxGeometry relative="1" x="0.1881" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="1380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fix-28" edge="1" parent="1" source="fix-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="fix-17" value="PUT pdf">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fix-31" edge="1" parent="1" source="fix-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.7;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="fix-17" value="GET pdf">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="1460" />
+              <mxPoint x="-120" y="1605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fix-32" edge="1" parent="1" source="fix-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="fix-16" value="SELECT 1">
+          <mxGeometry relative="1" x="0.1341" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
