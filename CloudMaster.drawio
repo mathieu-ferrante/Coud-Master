@@ -1,26 +1,26 @@
 <mxfile host="Electron">
   <diagram name="Page-1" id="S0WyqgY3CLEJsU1SXnSQ">
-    <mxGraphModel dx="2995" dy="-467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2684" dy="-509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="fix-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#ffcd28;fontColor=#000000;strokeColor=#d79b00;verticalAlign=top;fontStyle=1;" value="Azure Static Web Apps · front React" vertex="1">
-          <mxGeometry height="320" width="300" x="-900" y="1230" as="geometry" />
+          <mxGeometry height="320" width="300" x="-880" y="1262.5" as="geometry" />
         </mxCell>
         <mxCell id="fix-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;" value="Ouverture de la page" vertex="1">
-          <mxGeometry height="40" width="260" x="-880" y="1270" as="geometry" />
+          <mxGeometry height="40" width="260" x="-860" y="1300" as="geometry" />
         </mxCell>
         <mxCell id="fix-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontColor=#000000;fillColor=#ffffff;fontStyle=2;" value="Boutons « Réunion de… » (local, aucun appel)" vertex="1">
-          <mxGeometry height="40" width="260" x="-880" y="1320" as="geometry" />
+          <mxGeometry height="40" width="260" x="-860" y="1350" as="geometry" />
         </mxCell>
         <mxCell id="fix-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontStyle=1;" value="Bouton « Générer la convocation »" vertex="1">
-          <mxGeometry height="45" width="260" x="-880" y="1370" as="geometry" />
+          <mxGeometry height="45" width="260" x="-860" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="fix-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontStyle=1;" value="Bouton « Télécharger le PDF »&lt;br&gt;&lt;span style=&#39;font-weight:normal&#39;&gt;(aperçu + historique)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="50" width="260" x="-880" y="1425" as="geometry" />
+          <mxGeometry height="50" width="260" x="-860" y="1455" as="geometry" />
         </mxCell>
-        <mxCell id="fix-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontSize=11;" value="api.ts → fetch(VITE_API_URL + route) · HTTPS 443" vertex="1">
-          <mxGeometry height="40" width="260" x="-880" y="1490" as="geometry" />
+        <mxCell id="fix-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffff;fontSize=11;" value="HTTPS 443" vertex="1">
+          <mxGeometry height="40" width="260" x="-860" y="1530" as="geometry" />
         </mxCell>
         <mxCell id="fix-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;verticalAlign=top;fontStyle=1;" value="Azure App Service (Linux) · Uvicorn + FastAPI" vertex="1">
           <mxGeometry height="395" width="370" x="-510" y="1225" as="geometry" />
@@ -43,12 +43,16 @@
           <mxGeometry height="50" width="330" x="-490" y="1365" as="geometry" />
         </mxCell>
         <mxCell id="IiIOF5n48Drn7TAfkD9S-3" edge="1" parent="1" source="fix-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="fix-16">
-          <mxGeometry relative="1" x="-0.0476" as="geometry">
+          <mxGeometry relative="1" x="-0.075" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="1450" />
+              <mxPoint x="10" y="1305" />
+            </Array>
             <mxPoint x="10" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="IiIOF5n48Drn7TAfkD9S-4" connectable="0" parent="IiIOF5n48Drn7TAfkD9S-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SELECT id" vertex="1">
-          <mxGeometry relative="1" x="-0.1709" y="2" as="geometry">
+          <mxGeometry relative="1" x="-0.1937" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -58,17 +62,17 @@
         <mxCell id="fix-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="GET /health/live · /health/ready&amp;nbsp;" vertex="1">
           <mxGeometry height="40" width="330" x="-490" y="1485" as="geometry" />
         </mxCell>
-        <mxCell id="fix-15" parent="1" style="shape=note;size=17;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="meetings.json + prompt.md (fichiers du code)" vertex="1">
+        <mxCell id="fix-15" parent="1" style="shape=note;size=21;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="meetings.json + prompt.md (fichiers du code)" vertex="1">
           <mxGeometry height="45" width="330" x="-490" y="1540" as="geometry" />
         </mxCell>
         <mxCell id="fix-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;b&gt;Azure Database for PostgreSQL&lt;/b&gt;&lt;br&gt;table document · 5432 TLS" vertex="1">
-          <mxGeometry height="80" width="220" x="-40" y="1230" as="geometry" />
+          <mxGeometry height="80" width="220" x="-50" y="1225" as="geometry" />
         </mxCell>
         <mxCell id="fix-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" value="&lt;b&gt;Azure Blob Storage&lt;/b&gt;&lt;br&gt;documents/&amp;lt;id&amp;gt;.pdf · HTTPS 443" vertex="1">
-          <mxGeometry height="80" width="220" x="-10" y="1545" as="geometry" />
+          <mxGeometry height="80" width="220" x="-20" y="1560" as="geometry" />
         </mxCell>
         <mxCell id="fix-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="&lt;b&gt;OpenRouter&lt;/b&gt; (hors Azure)&lt;br&gt;API LLM · HTTPS 443" vertex="1">
-          <mxGeometry height="80" width="200" x="90" y="1350" as="geometry" />
+          <mxGeometry height="80" width="200" x="70" y="1350" as="geometry" />
         </mxCell>
         <mxCell id="fix-20" edge="1" parent="1" source="fix-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="fix-10" value="auto">
           <mxGeometry relative="1" as="geometry" />
@@ -105,7 +109,8 @@
         <mxCell id="fix-27" edge="1" parent="1" source="fix-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.85;entryDx=0;entryDy=0;" target="fix-16" value="INSERT">
           <mxGeometry relative="1" x="0.1881" as="geometry">
             <Array as="points">
-              <mxPoint x="-40" y="1380" />
+              <mxPoint x="-60" y="1380" />
+              <mxPoint x="-60" y="1293" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -116,7 +121,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-120" y="1460" />
-              <mxPoint x="-120" y="1605" />
+              <mxPoint x="-120" y="1620" />
             </Array>
           </mxGeometry>
         </mxCell>

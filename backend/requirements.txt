@@ -1,0 +1,2 @@
+# Lu par Azure App Service (Oryx) et par le workflow GitHub. Les versions exactes sont dans requirements.lock.
+-r requirements.lock

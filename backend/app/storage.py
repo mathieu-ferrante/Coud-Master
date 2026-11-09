@@ -24,3 +24,22 @@ class LocalStorage:
         if not path.is_relative_to(self.root):  # refuse « ../../fichier »
             raise ValueError(f"Clé de stockage invalide : {key}")
         return path
+
+
+class BlobStorage:
+    """Stockage des PDF dans un conteneur Azure Blob Storage (un blob par PDF, nommé par sa clé)."""
+
+    def __init__(self, container):
+        self.container = container  # azure.storage.blob.ContainerClient
+
+    @classmethod
+    def from_connection_string(cls, connection_string: str, container_name: str) -> "BlobStorage":
+        from azure.storage.blob import ContainerClient
+
+        return cls(ContainerClient.from_connection_string(connection_string, container_name))
+
+    def put(self, key: str, content: bytes) -> None:
+        self.container.upload_blob(key, content, overwrite=True)
+
+    def get(self, key: str) -> bytes:
+        return self.container.download_blob(key).readall()

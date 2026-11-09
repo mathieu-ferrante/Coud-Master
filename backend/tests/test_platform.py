@@ -1,9 +1,25 @@
 """Santé, CORS et stockage : les points touchés lors d'un déploiement."""
 
 import pytest
+from pydantic import SecretStr
 
 from app.config import Settings
-from app.storage import LocalStorage
+from app.main import make_storage
+from app.storage import BlobStorage, LocalStorage
+
+
+class FakeContainer:
+    """Remplace un ContainerClient Azure : blobs gardés en mémoire, aucun appel réseau."""
+
+    def __init__(self):
+        self.blobs = {}
+
+    def upload_blob(self, name, data, overwrite=False):
+        self.blobs[name] = data
+
+    def download_blob(self, name):
+        content = self.blobs[name]
+        return type("Downloader", (), {"readall": lambda self: content})()
 
 
 def test_health_endpoints(client):
@@ -32,3 +48,20 @@ def test_local_storage_round_trip(tmp_path):
 def test_local_storage_rejects_path_escape(tmp_path):
     with pytest.raises(ValueError):
         LocalStorage(tmp_path).get("../../secret.txt")
+
+
+def test_blob_storage_round_trip():
+    storage = BlobStorage(FakeContainer())
+    storage.put("doc.pdf", b"%PDF-test")
+    assert storage.get("doc.pdf") == b"%PDF-test"
+
+
+def test_storage_is_local_without_connection_string(settings):
+    assert isinstance(make_storage(settings), LocalStorage)
+
+
+def test_storage_is_blob_with_connection_string(settings):
+    settings.azure_storage_connection_string = SecretStr(
+        "DefaultEndpointsProtocol=https;AccountName=test;AccountKey=dGVzdA==;EndpointSuffix=core.windows.net"
+    )
+    assert isinstance(make_storage(settings), BlobStorage)  # aucun appel réseau à la création

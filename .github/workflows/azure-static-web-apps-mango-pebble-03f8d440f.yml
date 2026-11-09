@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/azure-static-web-apps-mango-pebble-03f8d440f.yml'
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
@@ -32,6 +35,9 @@ jobs:
           api_location: "" # Api source code path - optional
           output_location: "dist" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
+        env:
+          # Adresse publique du backend, intégrée au frontend à la compilation (voir README).
+          VITE_API_URL: https://cloudmasterappservice-h8fjfye7fkbgfkgy.westus3-01.azurewebsites.net
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'

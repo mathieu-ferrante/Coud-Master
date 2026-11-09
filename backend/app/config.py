@@ -22,6 +22,10 @@ class Settings(BaseSettings):
     llm_model: str = ""
     llm_api_key: SecretStr = SecretStr("")
 
+    # Vide : PDF dans data_dir (local). Renseignée : PDF dans Azure Blob Storage.
+    azure_storage_connection_string: SecretStr = SecretStr("")
+    azure_storage_container: str = "documents"
+
     @property
     def cors_origin_list(self) -> list[str]:
         """Origines séparées par des virgules ; espaces et slash final tolérés."""

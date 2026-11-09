@@ -9,9 +9,17 @@ from app.config import Settings
 from app.database import init_db, make_engine
 from app.llm import LLMError, LLMService
 from app.routes import documents, health
-from app.storage import LocalStorage
+from app.storage import BlobStorage, LocalStorage
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+
+
+def make_storage(settings: Settings):
+    """Azure Blob Storage si la chaîne de connexion est renseignée, sinon un dossier local."""
+    connection_string = settings.azure_storage_connection_string.get_secret_value()
+    if connection_string:
+        return BlobStorage.from_connection_string(connection_string, settings.azure_storage_container)
+    return LocalStorage(settings.data_dir / "documents")
 
 
 def llm_error_response(request: Request, exc: LLMError):
@@ -34,7 +42,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     # Services partagés, fournis aux routes par app/deps.py.
     app.state.engine = engine
     app.state.llm = LLMService(settings)
-    app.state.storage = LocalStorage(settings.data_dir / "documents")
+    app.state.storage = make_storage(settings)
 
     app.add_middleware(
         CORSMiddleware,
